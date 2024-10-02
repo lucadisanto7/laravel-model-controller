@@ -15,7 +15,7 @@ use App\Http\Controllers\Guest\PageController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/movies', [PageController::class, 'index'])->name('movies');
